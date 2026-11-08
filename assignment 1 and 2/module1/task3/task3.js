@@ -1,0 +1,13 @@
+const num1 = parseInt(prompt('Enter the first integer:'), 10);
+const num2 = parseInt(prompt('Enter the second integer:'), 10);
+const num3 = parseInt(prompt('Enter the third integer:'), 10);
+
+// Calculate sum, product, and average
+const sum = num1 + num2 + num3;
+const product = num1 * num2 * num3;
+const average = sum / 3;
+
+// pass the results
+document.querySelector('#sum').textContent = `Sum: ${sum}`;
+document.querySelector('#product').textContent = `Product: ${product}`;
+document.querySelector('#average').textContent = `Average: ${average}`;
