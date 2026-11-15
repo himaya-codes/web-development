@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="startBtn">Start Game</button>
+
+<script>
+  let timerId = null;
+
+  document.getElementById("startBtn").addEventListener("click", function() {
+    if (!timerId) {
+      timerId = setInterval(timedAction, 300);
+    }
+  });
+
+  function timedAction() {
+    // 1. Create and add a box
+    let box = document.createElement("p");
+    box.textContent = "Box";
+    document.body.appendChild(box);
+
+    // 2. Check each paragraph
+    let paragraphs = document.querySelectorAll("p");
+    let screenHeight = document.documentElement.clientHeight;
+
+    paragraphs.forEach(p => {
+      let elementBottom = p.offsetTop + p.offsetHeight;
+
+      if (elementBottom >= screenHeight) {
+        clearInterval(timerId);                       // Stop creating boxes
+        paragraphs.forEach(el => el.remove());         // Remove existing paragraphs
+        document.body.innerHTML = "<h1>Game Over</h1>"; // Add "game over" text
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

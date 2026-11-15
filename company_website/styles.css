@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.body{
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #F5F0E6;
+    padding: 10px;
+}
+
+.logo-img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-item{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.table-style{
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+    text-align: left;
+}
+
+.other-th{
+    width: 20%;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+.nav-link:hover{
+    background-color: #afa79b;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.nav-link a{
+    display: block;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.home{
+    align-content: center;
+}
+
+.title-p{
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+    scroll-margin-top: 80px;
+}
+
+.home-img{    
+    width: 736px;
+    height: 414px;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.home-p-div{
+    padding-top: 30px; 
+    padding-left: 250px; 
+    padding-right: 250px;
+    padding-bottom: 10px;
+    scroll-margin-top: 20px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    box-sizing: border-box;
+    width: 1100px;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding-bottom: 30px;
+}
+
+.card{
+    padding: 16px;
+    background-color: #F7F3ED;
+}
+
+.card-p{
+    font-family: "PT Sans", sans-serif;
+    text-align: left;
+    font-size: 14px;
+    color: #564527;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: #afa79b;
+    cursor: pointer;
+}
+
+
+.card h2{
+    font-family: "PT Sans", sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.card p{
+    margin: 14px 0 0;
+    line-height: 1.2;
+}
+
+.contact-title{
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 20px;
+    scroll-margin-top: 80px;
+    background-color: #F5F0E6;
+}
+
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 24px;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 100vh;
+    margin: 0 auto 30px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.contact-details{
+    font-family: "PT Sans", sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-icon{
+    width: 24px;
+    height: 24px;
+    flex: 0 0 24px;
+    object-fit: contain;
+}
+.contact-item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.contact-map{
+    display: block;
+    width: 100%;
+    height: 350px;
+    border: 0;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const numbers = [];
+      numbers[0] = 17;
+      numbers[1] = 2;
+      numbers[2] = 8;
+
+      console.log(numbers);
+      console.log(numbers[0]); // Output: 17
+      console.log(numbers.length); // Output: 2
+
+      const names = ["Frank", "Scott", "Jasmine", "Don"];
+
+      for (let i = 0; i < names.length; i++) {
+        console.log(`Name: ${names[i]}`);
+      }
+
+      const name2 = ["Frank", "Scott", "Jasmine", "Don"];
+
+      for (const name of name2) {
+        console.log(`Name: ${name}`);
+      }
+
+      console.log(name2.sort());
+      
+      const student = {
+        name: "John",
+        age: 20,
+        grade: "A",
+      };
+      console.log(student);
+
+function quadraticSum(first, second) {
+  const result = first * first + second * second;
+  return result;
+}
+
+  const num1 = prompt("Enter 1 number");
+  const num2 = prompt("Enter 2 number");
+  const quad = quadraticSum(num1, num2);
+
+  console.log("The quadratic sum of " + num1 + " and " + num2 + " is " + quad);
+    </script>
+  </body>
+</html>
