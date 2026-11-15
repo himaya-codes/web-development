@@ -4,7 +4,7 @@
 
 ### JS modules 1
 
-[My link to js mod 1 and 2 folder at users.metropolia.fi](https://users.metropolia.fi/~tharushk/js1-folder/)
+[My link to js mod 1 folder at users.metropolia.fi](https://users.metropolia.fi/~tharushk/js1-folder/)
 
 Completed assignments:
 
@@ -22,7 +22,7 @@ Completed assignments:
 ---
 
 ### JS module 2
-My link to js mod 2 folder at users.metropolia.fi
+[My link to js mod 2 folder at users.metropolia.fi](https://users.metropolia.fi/~tharushk/js2-folder/)
 
 Completed assignments:
 
@@ -34,8 +34,7 @@ Task 2: 5 p
 
 ### JS module 3
 
-[My link to js mod 3 folder at users.metropolia.fi]
-(https://users.metropolia.fi/~tharushk/js3-folder/)
+[My link to js mod 3 folder at users.metropolia.fi](https://users.metropolia.fi/~tharushk/js3-folder/)
 
 Completed assignments:
 - Task 1: 2 p
@@ -50,8 +49,7 @@ Completed assignments:
 
 ### JS module 4
 
-[My link to js mod 4 folder at users.metropolia.fi]
-(https://users.metropolia.fi/~tharushk/js4-folder/)
+[My link to js mod 4 folder at users.metropolia.fi](https://users.metropolia.fi/~tharushk/js4-folder/)
 
 Completed assignments:
 - Task 1: 2 p
